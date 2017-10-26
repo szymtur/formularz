@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <form action="https://formspree.io/szymtur@gmail.com" method="post">
+        <label for="name">Imię</label>
+            <input type="text" name="Imię:" id="name"/> <br><br>
+                
+        <label for="surname">Nazwisko</label>
+            <input type="text" name="Nazwisko:" id="surname"/> <br><br>
+            
+        <label for="email">e-mail</label>
+            <input type="email" name="e-mail:" id="email"/> <br><br>
+        
+        <label for="tel">Telefon</label>
+            <input type="text" name="Telefon:" id="tel"/> <br><br>        
+
+       <label for="city">Miasto</label>
+            <select name="Miasto:" id="city">
+                <option>Kraków</option>
+                <option>Warszawa</option>
+                <option>Gdańsk</option>
+                <option>Inne</option>
+            </select> <br><br>
+
+
+        <label for="sex">Podaj swoją płeć:</label>
+            <input type="radio" name="Płeć:" value="Kobieta" id="sex"/>Kobieta
+            <input type="radio" name="Płeć:" value="Mężczyzna" />Mężczyzna <br><br>
+                                                           
+            <input type="checkbox" name="Zgoda na przetwarzanie:" id="zgoda-dane" value="Tak" checked="checked">
+        <label for="zgoda-dane">Wyrażam zgodę na przetwarzanie danych osobowych.</label><br><br>   
+        
+        <label for="mail">Wiadomość</label>
+            <textarea name="Wiadomość:" id="mail"></textarea> <br><br>
+        
+        <input type="submit" value="Wyślij wiadomość"> <br><br>
+        <input type="reset" value="Wyczyść dane">       
+  
+    </form>
+</body>
+</html>
