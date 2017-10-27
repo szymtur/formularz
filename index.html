@@ -7,7 +7,11 @@
 </head>
 <body>
     
+    <!-- formspree -->
     <form action="https://formspree.io/szymtur@gmail.com" method="post">
+    <!-- formspree - End -->
+        
+        <!-- Wprowadzanie danych osobowych -->
         <label for="name">Imię</label>
             <input type="text" name="Imię:" id="name"/> <br><br>
                 
@@ -19,29 +23,41 @@
         
         <label for="tel">Telefon</label>
             <input type="text" name="Telefon:" id="tel"/> <br><br>        
-
-       <label for="city">Miasto</label>
+        <!-- Wprowadzanie danych osobowych - End -->
+        
+        <!-- Wybów miasta -->
+        <label for="city">Miasto</label>
             <select name="Miasto:" id="city">
                 <option>Kraków</option>
                 <option>Warszawa</option>
                 <option>Gdańsk</option>
                 <option>Inne</option>
             </select> <br><br>
+        <!-- Wybów miasta - End -->
 
-
-        <label for="sex">Podaj swoją płeć:</label>
-            <input type="radio" name="Płeć:" value="Kobieta" id="sex"/>Kobieta
-            <input type="radio" name="Płeć:" value="Mężczyzna" />Mężczyzna <br><br>
-                                                           
+        <!-- Wybów płci -->            
+        <p>Podaj swoją płeć:</p>
+        <label for="sex-1">
+            <input type="radio" name="Płeć:" value="Kobieta" id="sex-1"/>Kobieta</label> <br>                                                                                                              
+        <label for="sex-2">
+            <input type="radio" name="Płeć:" value="Mężczyzna" id="sex-2" />Mężczyzna</label> <br><br>
+        <!-- Wybów płci - End -->
+          
+        <!-- Przetwarzanie danych osobowych -->                              
             <input type="checkbox" name="Zgoda na przetwarzanie:" id="zgoda-dane" value="Tak" checked="checked">
         <label for="zgoda-dane">Wyrażam zgodę na przetwarzanie danych osobowych.</label><br><br>   
+        <!-- Przetwarzanie danych osobowych - End-->
         
+        <!-- Pole tekstowe -->
         <label for="mail">Wiadomość</label>
-            <textarea name="Wiadomość:" id="mail"></textarea> <br><br>
+            <textarea name="Wiadomość:" id="mail" placeholder="Wpisz wiadomość"></textarea> <br><br>
+        <!-- Pole tekstowe -End -->
         
+        <!-- Przyciski -->
         <input type="submit" value="Wyślij wiadomość"> <br><br>
         <input type="reset" value="Wyczyść dane">       
-  
+        <!-- Przyciski -End -->
+        
     </form>
 </body>
 </html>
