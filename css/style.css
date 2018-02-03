@@ -1,4 +1,60 @@
-body {
-    font-family: 'Lato', sans-serif;
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+form{
+    background-color: #213b50;
+    color: #ffffff;
+    font-size: 17px;
+    width: 500px;
+    height: 800px;
+    padding: 20px;
+    }
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input{
+    margin-bottom: 15px;
+    border: none;
     font-size: 17px;
 }
+
+form textarea{
+    width: 450px;
+    height: 100px;
+    background-color: #2b4a64;
+    color: #ffffff;
+    border: none;
+   }
+
+input[type="text"],input[type="email"],select{
+    background-color: #2b4a64;
+    width: 450px;
+    height: 25px;
+    color: #ffffff;
+    border: none;
+    font-size: 17px;
+}
+
+input[type="submit"], input[type="reset"]{
+    padding: 10px 15px;
+    background-color: #1ac056;
+    color: #fff;
+    width: 200px;
+    font-weight: 550;
+}
+
+label[for="zgoda-dane"]{
+    display: inline-block;
+}
+
+input:focus, textarea:focus, select:focus{
+    background-color: #4e708c;
+    outline: none; 
+    border: 1px solid #ffffff;
+    font-size: 17px;
