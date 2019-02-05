@@ -1,60 +1,79 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
     padding: 20px;
+    background: #f3f3f3;
 }
 
-form{
+form {
     background-color: #213b50;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 14px;
     width: 500px;
-    height: 800px;
+    height: 645px;
     padding: 20px;
-    }
+    padding-left: 30px;
+    margin: 0 auto;
+}
 
-form label{
+form label {
     display: block;
     margin-bottom: 5px;
 }
 
-form input{
+form input {
     margin-bottom: 15px;
-    border: none;
     font-size: 17px;
 }
 
-form textarea{
+form textarea {
     width: 450px;
     height: 100px;
     background-color: #2b4a64;
     color: #ffffff;
     border: none;
-   }
+}
 
-input[type="text"],input[type="email"],select{
+form textarea, 
+form input,
+form select {
+    border: 1px solid gray;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
     background-color: #2b4a64;
     width: 450px;
     height: 25px;
     color: #ffffff;
-    border: none;
     font-size: 17px;
 }
 
-input[type="submit"], input[type="reset"]{
-    padding: 10px 15px;
-    background-color: #1ac056;
-    color: #fff;
-    width: 200px;
-    font-weight: 550;
+form select {
+    height: 30px;
 }
 
-label[for="zgoda-dane"]{
+form input[type="submit"], 
+form input[type="reset"] {
+    padding: 5px;
+    background-color: #1ac056;
+    color: #fff;
+    width: 170px;
+    margin: 0 15px 5px 0;
+    display: inline-block;
+    font-size: 15px;
+}
+
+form label[for="zgoda-dane"] {
     display: inline-block;
 }
 
-input:focus, textarea:focus, select:focus{
+form input:focus, 
+form textarea:focus, 
+form select:focus {
     background-color: #4e708c;
     outline: none; 
     border: 1px solid #ffffff;
     font-size: 17px;
+}
