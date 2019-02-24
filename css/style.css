@@ -1,5 +1,10 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: sans-serif;
     padding: 20px;
     background: #f3f3f3;
@@ -8,22 +13,18 @@ body {
 form {
     background-color: #213b50;
     color: #ffffff;
-    font-size: 14px;
-    width: 500px;
-    height: 645px;
+    font-size: 12px;
+    width: 510px;
+    height: 600px;
     padding: 20px;
     padding-left: 30px;
     margin: 0 auto;
 }
 
-form label {
+form label,
+form .label {
     display: block;
     margin-bottom: 5px;
-}
-
-form input {
-    margin-bottom: 15px;
-    font-size: 17px;
 }
 
 form textarea {
@@ -32,26 +33,46 @@ form textarea {
     background-color: #2b4a64;
     color: #ffffff;
     border: none;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 form textarea, 
 form input,
-form select {
+form select,
+form .gender {
     border: 1px solid gray;
 }
 
 form input[type="text"],
 form input[type="email"],
-form select {
+form select,
+form .gender {
     background-color: #2b4a64;
     width: 450px;
     height: 25px;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
 }
 
 form select {
-    height: 30px;
+    padding-left: 5px;
+}
+
+form .gender .sex {
+    display: inline-block;
+    vertical-align: sub;
+    margin: 0;
+}
+
+form .gender .sex:first-child {
+    margin-right: 10px; 
+}
+
+form .gender .sex input[type="radio"] {
+    margin: 0 5px 0 0;
 }
 
 form input[type="submit"], 
@@ -60,20 +81,21 @@ form input[type="reset"] {
     background-color: #1ac056;
     color: #fff;
     width: 170px;
-    margin: 0 15px 5px 0;
+    margin: 25px 15px 5px 0;
     display: inline-block;
     font-size: 15px;
 }
 
 form label[for="zgoda-dane"] {
     display: inline-block;
+    margin-top: 5px;
 }
 
 form input:focus, 
 form textarea:focus, 
-form select:focus {
+form select:focus,
+form .gender:active {
     background-color: #4e708c;
     outline: none; 
     border: 1px solid #ffffff;
-    font-size: 17px;
 }
