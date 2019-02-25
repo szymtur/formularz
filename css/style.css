@@ -6,7 +6,6 @@
 
 body {
     font-family: sans-serif;
-    padding: 20px;
     background: #f3f3f3;
 }
 
@@ -18,7 +17,7 @@ form {
     height: 600px;
     padding: 20px;
     padding-left: 30px;
-    margin: 0 auto;
+    margin: 20px auto 20px auto;
 }
 
 form label,
