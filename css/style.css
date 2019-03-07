@@ -14,7 +14,8 @@ form {
 	background-color: #213b50;
 	font-family: 'Play', sans-serif;
     font-size: 12px;
-    width: 480px;
+	width: 480px;
+	min-width: 300px;
     height: 600px;
     border-radius: 10px;
     border: 1px solid #000000;
@@ -115,6 +116,7 @@ select:-webkit-autofill {
 	        box-shadow: 0 0 0 500px #2b4a64 inset;
 }
 
+/* Styles for small mobile devices */
 @media (max-width: 490px) {
 	body {
 		background-color: #213b50;
@@ -123,6 +125,7 @@ select:-webkit-autofill {
 
 	form {
 		width: 100vw;
-		border-color: transparent;
+		min-width: 390px;
+		border: none;
 	}
 }
