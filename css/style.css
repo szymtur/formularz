@@ -125,7 +125,7 @@ select:-webkit-autofill {
 
 	form {
 		width: 100vw;
-		min-width: 390px;
+		/* min-width: 390px; */
 		border: none;
 	}
 }
