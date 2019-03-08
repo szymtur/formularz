@@ -122,13 +122,9 @@ select:-webkit-autofill {
 @media (max-width: 490px) {
 	body {
 		background-color: #213b50;
-		/* overflow: hidden; */
 	}
 
 	form {
-		/* width: 100vw; */
-		/* min-width: 390px; */
 		border: none;
-		/* padding: 20px 10px 20px 10px; */
 	}
 }
