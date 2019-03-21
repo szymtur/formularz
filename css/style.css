@@ -2,20 +2,20 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	background: #f3f3f3;
+    background: #f3f3f3;
 }
 
 form {
     color: #ffffff;
-	background-color: #213b50;
-	font-family: 'Play', sans-serif;
+    background-color: #213b50;
+    font-family: 'Play', sans-serif;
     font-size: 12px;
-	width: 480px;
-	min-width: 300px;
+    width: 480px;
+    min-width: 300px;
     height: 600px;
     border-radius: 10px;
     border: 1px solid #000000;
@@ -30,15 +30,15 @@ form .label {
 }
 
 form input,
-form textarea, 
+form textarea,
 form select,
 form .gender {
     color: #ffffff;
-	background-color: #2b4a64;
-	border: 1px solid #808080;
-	font-family: 'Play', sans-serif;
-	font-size: 15px;
-	outline: none;
+    background-color: #2b4a64;
+    border: 1px solid #808080;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    outline: none;
 }
 
 form input[type="text"],
@@ -48,12 +48,12 @@ form .gender {
     width: 100%;
     height: 27px;
     margin-bottom: 15px;
-	padding: 1px 0 0 10px;
+    padding: 1px 0 0 10px;
 }
 
 form textarea {
     width: 100%;
-	height: 100px;
+    height: 100px;
     padding: 5px 0 0 10px;
     overflow: hidden;
     resize: none;
@@ -70,7 +70,7 @@ form .gender .sex {
 }
 
 form .gender .sex:first-child {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 form .gender .sex input[type="radio"] {
@@ -80,11 +80,11 @@ form .gender .sex input[type="radio"] {
 form input[type="checkedbox"],
 form label[for="zgoda-dane"] {
     display: inline-block;
-	margin-top: 5px;
-	width: 95%;
+    margin-top: 5px;
+    width: 95%;
 }
 
-form input[type="submit"], 
+form input[type="submit"],
 form input[type="reset"] {
     padding: 5px;
     background-color: #1ac056;
@@ -95,14 +95,14 @@ form input[type="reset"] {
 }
 
 form input[type="reset"] {
-	margin-right: 0;
+    margin-right: 0;
 }
 
-form input[type="submit"]:hover, 
+form input[type="submit"]:hover,
 form input[type="reset"]:hover,
 form input[type="text"]:focus,
 form input[type="email"]:focus,
-form textarea:focus, 
+form textarea:focus,
 form select:focus,
 form .gender:active {
     background-color: #4e708c;
@@ -110,21 +110,22 @@ form .gender:active {
 }
 
 /* Change Autocomplete styles in Chrome */
+
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
-	-webkit-text-fill-color: #ffffff;
-	-webkit-box-shadow: 0 0 0 500px #2b4a64 inset;
-	        box-shadow: 0 0 0 500px #2b4a64 inset;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-box-shadow: 0 0 0 500px #2b4a64 inset;
+    box-shadow: 0 0 0 500px #2b4a64 inset;
 }
 
 /* Styles for small mobile devices */
-@media (max-width: 490px) {
-	body {
-		background-color: #213b50;
-	}
 
-	form {
-		border: none;
-	}
+@media (max-width: 490px) {
+    body {
+        background-color: #213b50;
+    }
+    form {
+        border: none;
+    }
 }
