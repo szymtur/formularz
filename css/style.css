@@ -110,7 +110,6 @@ form .gender:active {
 }
 
 /* Changes Autocomplete styles in Chrome */
-
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
@@ -120,7 +119,6 @@ select:-webkit-autofill {
 }
 
 /* Styles for small mobile devices */
-
 @media (max-width: 490px) {
     body {
         background-color: #213b50;
